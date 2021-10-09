@@ -1,0 +1,43 @@
+
+body{
+    text-align: center;
+    background:#9c91dd;
+    font-family: 'honoka';
+    
+
+}
+h1{
+    color: #ffffe0
+}
+h2{
+    color:#ffffe0
+}
+p{
+    color: #f0ffff
+}
+
+
+
+@font-face { font-family: 'honoka';
+src:url(font_1_honokamarugo_1.1.ttf); }
+
+#webgazerVideoContainer {
+    width: 1000px!important;
+}
+#webgazerFaceFeedbackBox{
+    left: 100;
+    top: 100;
+    width: 314px;
+    height: 234px;
+    position: absolute;
+}
+#webgazerVideoFeed{
+    left: 100;
+    top: 100;
+    position: absolute;
+}
+#webgazerFaceOverlay{
+    left: 100;
+    top: 100;
+    position: absolute;
+}
