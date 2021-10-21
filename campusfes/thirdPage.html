@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8">
+    <title>WebGazer デモ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="thirdPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">魅力的な文って？</h1>
+            <ul class="nav">
+            </ul>
+        </div>
+    </header>
+<main id="main-content">
+    <div class="container">
+        <h2>実際に文章を評価してみよう</h2>
+        <h3>視線計測とは？</h3>
+        <p>
+            別名アイトラッキングと呼ばれる視線計測ですが、人の視線の動きを追跡する際の分析手法として用いられます。実用面では、店舗の商品配置、ウェブサイトのデザイン、ソフトウエアのユーザーインターフェースなどの改善に利用されることが多いです。
+            一般的には、被験者の眼球の動きを記録する専用の機器を使用し、視線の経路や滞留時間を計測しますが、今回はwebカメラを使って視線計測を行います。
+
+        </p>
+        <p>
+            それでは下記の文章を1:とても悪い、4:どちらでもない、7:とても良いの７段階で評価してみてください
+         </p>
+        <div class="pb-rating-graph">
+            <ul>
+              <li>
+                <div class="pb-rating-graph__label">練習：秋の空は澄んでいて綺麗だ</div>
+                <div class="pb-rating-graph__wrap">
+                  <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても悪い</span></div>
+
+                    1　<label for="r01"><input type="radio" name="test" id="r01">&nbsp;</label>　　
+                    <label for="r02"><input type="radio" name="test" id="r02">&nbsp;</label>　　
+                    <label for="r03"><input type="radio" name="test" id="r03">&nbsp;</label>　　
+                    <label for="r04"><input type="radio" name="test" id="r04">&nbsp;</label>　　
+                    <label for="r05"><input type="radio" name="test" id="r05">&nbsp;</label>　　
+                    <label for="r06"><input type="radio" name="test" id="r06">&nbsp;</label>　　
+                    <label for="r07"><input type="radio" name="test" id="r07">&nbsp;</label>　7<br style="clear: left;">
+                  <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても良い</span></div>
+    </div>
+    <p>
+        
+     </p>
+</main>
+    <footer>
+        <div class="foot-wrapper">
+            <div class="foot-nav">
+                <ul class="nav">
+                    <li>|</li>
+                    <li><a href=forthPage.html>next page</a> </li>
+                    <li>|</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+        <p class="copy"> 感性班＠菊池英明研究室</p>
+    </footer>
+</body>
+</html>
