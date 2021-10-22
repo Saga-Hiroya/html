@@ -97,3 +97,7 @@ body {
   top: 100;
   position: absolute;
 }
+.attetion{
+  position: relative;
+  text-align: center;
+}

@@ -74,3 +74,18 @@ body {
     color:#fff;
     height:35px
 }
+.screen{
+  position: relative;
+  left: 0px;
+  width: 40%;
+  height: 40%;
+}
+.active{
+  position: relative;
+  left:50%; 
+  width: 40%;
+  height: 40%;
+}
+.camera{
+  color:#fc3030
+}
