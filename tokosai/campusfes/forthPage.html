@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8">
+  <title>WebGazer デモ</title>
+  <script type="text/javascript" src="./webgazer.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="forthPage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">魅力的な文って？</h1>
+      <ul class="nav">
+      </ul>
+    </div>
+  </header>
+  <main id="main-content">
+    <div class="container">
+      <h2>実際に体験してみよう</h2>
+      <p>
+        先ほどと同様に下記の３つの文章を1:とても悪い、4:どちらでもない、7:とても良いの７段階で評価してみてください
+      </p>
+      <div class="pb-rating-graph">
+        <ul>
+          <li>
+            <div class="pb-rating-graph__label">1：瞳に浮かぶのは涙ではない。ただただ空虚で、諦観に満ちた絶望だ。</div>
+            <div class="pb-rating-graph__wrap">
+              <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても悪い</span></div>
+              1　<label for="r01"><input type="radio" name="test0" id="r01">&nbsp;</label>　　
+              <label for="r02"><input type="radio" name="test0" id="r02">&nbsp;</label>　　
+              <label for="r03"><input type="radio" name="test0" id="r03">&nbsp;</label>　　
+              <label for="r04"><input type="radio" name="test0" id="r04">&nbsp;</label>　　
+              <label for="r05"><input type="radio" name="test0" id="r05">&nbsp;</label>　　
+              <label for="r06"><input type="radio" name="test0" id="r06">&nbsp;</label>　　
+              <label for="r07"><input type="radio" name="test0" id="r07">&nbsp;</label>　7<br style="clear: left;">
+              <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても良い</span></div>
+            </div>
+            <br>
+            <br>
+            <ul>
+              <li>
+                <div class="pb-rating-graph__label">2：待合室の一番奥のベンチに背中を丸めて座り、キャップを深くかぶっていても暗い顔をしていることがわかる、彼女の姿が。</div>
+                <div class="pb-rating-graph__wrap">
+                  <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても悪い</span></div>
+                  1　<label for="r01"><input type="radio" name="test1" id="r01">&nbsp;</label>　　
+                  <label for="r02"><input type="radio" name="test1" id="r02">&nbsp;</label>　　
+                  <label for="r03"><input type="radio" name="test1" id="r03">&nbsp;</label>　　
+                  <label for="r04"><input type="radio" name="test1" id="r04">&nbsp;</label>　　
+                  <label for="r05"><input type="radio" name="test1" id="r05">&nbsp;</label>　　
+                  <label for="r06"><input type="radio" name="test1" id="r06">&nbsp;</label>　　
+                  <label for="r07"><input type="radio" name="test1" id="r07">&nbsp;</label>　7<br style="clear: left;">
+                  <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても良い</span></div>
+                </div>
+                <br>
+                <br>
+                <ul>
+                  <li>
+                    <div class="pb-rating-graph__label">3：肉の脂の旨味が出てるからフライパンはそのまま使った方がより美味しいソースができる気がするから、俺はいつもそうしている。
+                    </div>
+                    <div class="pb-rating-graph__wrap">
+                      <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても悪い</span></div>
+
+                      1　<label for="r01"><input type="radio" name="test2" id="r01">&nbsp;</label>　　
+                      <label for="r02"><input type="radio" name="test2" id="r02">&nbsp;</label>　　
+                      <label for="r03"><input type="radio" name="test2" id="r03">&nbsp;</label>　　
+                      <label for="r04"><input type="radio" name="test2" id="r04">&nbsp;</label>　　
+                      <label for="r05"><input type="radio" name="test2" id="r05">&nbsp;</label>　　
+                      <label for="r06"><input type="radio" name="test2" id="r06">&nbsp;</label>　　
+                      <label for="r07"><input type="radio" name="test2" id="r07">&nbsp;</label>　7<br
+                        style="clear: left;">
+                      <div class="pb-rating-graph__basis"><span class="pb-rating-graph__basis-inner">とても良い</span></div>
+                    </div>
+      </div>
+      <p>
+        <div id="faceTrackingCanvas">
+        </div>
+      </p>
+  </main>
+  <div class="tt">
+    <p>⚠︎使用されているデバイスによってはうまく動作しない可能性がございます。</p>
+  </div>
+  <footer>
+    <div class="foot-wrapper">
+      <div class="foot-nav">
+        <ul class="nav">
+          <li>|</li>
+          <li><a href=fifthPage.html>next page</a> </li>
+          <li>|</li>
+        </ul>
+        <br>
+      </div>
+    </div>
+    <p class="copy"> 感性班＠菊池英明研究室</p>
+  </footer>
+
+  <script>
+    webgazer.setGazeListener(function (data, elapsedTime) {
+      if (data == null) {
+        return;
+      }
+      var xprediction = data.x;
+      var yprediction = data.y;
+      console.log(elapsedTime);
+    }).begin();
+  </script>
+</body>
+</html>

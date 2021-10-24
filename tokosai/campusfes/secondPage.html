@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8">
+    <title>WebGazer デモ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="./webgazer.js"></script>
+    <link rel="stylesheet" href="secondPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body> 
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">魅力的な文って？</h1>
+            <ul class="nav">
+            </ul>
+        </div>
+    </header>
+<main id="main-content">
+    <div class="container">
+        <h3>Let's 体験！</h3>
+        <ul>
+            <h4>
+                今日は、実際に視線計測を用いた実験を体験してもらいます
+            </h4>
+            <ul>
+        <p>あなたの顔が画面下部に表示されており、目線に合わせて点が動いているのではないでしょうか
+        </p>
+        <div id="faceTrackingCanvas">
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div call = "attention">
+    <p>⚠︎カメラが起動するまで8秒ほどかかりますので暫くお待ちください</p>
+    <p>カメラ許可をブロックしてしまった方は一度前のページにお戻りください</p>
+</div>
+    </div>
+</main>
+    <footer>
+        <div class="foot-wrapper">
+            <div class="foot-nav">
+                <ul class="nav">
+                    <li>|</li>
+                    <li><a href=thirdPage.html>next page</a> </li>
+                    <li>|</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+        <p class="copy"> 感性班＠菊池英明研究室</p>
+    </footer>
+    <script type="text/javascript" src="firstPage.js"></script>
+    <div class = "webgazer">
+    <script>
+        webgazer.setGazeListener(function (data, elapsedTime) {
+            if (data == null) {
+                return;
+            }
+            var xprediction = data.x;
+            var yprediction = data.y;
+            console.log(elapsedTime);
+        }).begin();
+    </script>
+    </div>
+</body>
+
+</html>
