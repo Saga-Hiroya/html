@@ -43,5 +43,5 @@
 * 変文オートエンコーダ：入力に近しい表現を生成できる
 * CVAE:キーワード入力による広告文生成
 * pos-vae:制約が緩い（品詞情報をスタイルとみなす）
- * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf
- * 川本 峻頌, 張 培楠 (2020)  スタイル制御を考慮した多様な広告文生成 
+  * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf
+  * 川本 峻頌, 張 培楠 (2020)  スタイル制御を考慮した多様な広告文生成 
