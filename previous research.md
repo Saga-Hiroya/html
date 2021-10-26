@@ -26,8 +26,8 @@
   * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf  
   *  川本 峻頌, 張 培楠 (2020) スタイル制御を考慮した多様な広告文生成  
 
-### 評価方法について
-#### 人手評価
+## 評価方法について
+### 人手評価
 * Relative Ranking (RR)：評価者がその一部もしくは全てを適切な順番に並び替える評価手法　（スコア化にTrueSkillTMを用いる）
 * Direct Assessment:評価者が定められた範囲内の数値を選択する
   * https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_3Rin480/_pdf/-char/ja
@@ -39,7 +39,7 @@
  * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf
  * 川本 峻頌, 張 培楠 (2020)  スタイル制御を考慮した多様な広告文生成 
 
-### 自動生成
+## 自動生成
 * 変文オートエンコーダ：入力に近しい表現を生成できる
 * CVAE:キーワード入力による広告文生成
 * pos-vae:制約が緩い（品詞情報をスタイルとみなす）
