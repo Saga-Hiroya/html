@@ -26,7 +26,7 @@
   * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf  
   *  川本 峻頌, 張 培楠 (2020) スタイル制御を考慮した多様な広告文生成  
 
-### 広告主の利益を増収する要因
+### 広告主の利益を増収する要因(web広告)
 <img width="1204" alt="スクリーンショット 2021-10-27 10 06 00" src="https://user-images.githubusercontent.com/80563502/138983230-4935f047-d3c5-4d02-a1ce-4f70a2d583df.png">
 
 ## 評価方法について
