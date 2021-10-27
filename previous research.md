@@ -8,6 +8,10 @@
 * キャッチコピーは短い文字数で注目を引き、端的かつ効果的に対象の特徴を述べるものである。その目的は、受け手の注意を引いて、その関心と興味をかきたて、さらに送り手の期待するような欲望を起こさせて、最後にはその欲望にそって、受け手にある種の行動を行わせることである。
   * 鵜月洋. 広告文の歴史 キャッチフレーズの 100 年. 日本経済新聞社, 1965.
 
+* その広告に関するあらゆる情報、例えば広告の出ているメディアやページ内の表示場所、広告を見たユーザーのデモグラフィック、広告主とその商品、クリエイティブと呼ばれる広告バナーの画像や文面等がクリックを引き起こす要因として考えられる。
+  * https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-14/public/pdf?type=in
+  * 岩崎 祐貴(2018) 深層学習によるFacebook広告のCTR予測
+
 * プロでない人がキャッチコピーを作成するケースが少なくない。従って、人間の心を捉えるキャッチコピーを自動生成するシステムへの需要もある。
 * つまり, Web上でキャッチコピーが自動生成できるような潜在的なニーズも存在する.
   * https://www.jstage.jst.go.jp/article/fss/28/0/28_1008/_pdf/-char/ja
@@ -28,6 +32,8 @@
 
 ### 広告主の利益を増収する要因(web広告)
 <img width="1204" alt="スクリーンショット 2021-10-27 10 06 00" src="https://user-images.githubusercontent.com/80563502/138983230-4935f047-d3c5-4d02-a1ce-4f70a2d583df.png">
+  * https://cdn2.hubspot.net/hubfs/4430529/YANS2018.pdf?
+  * 山村 祟, 張 培楠, 田中 駿(2018) 検索連動型広告自動生成のためのWebページ本文抽出手法の研究
 
 ## 評価方法について
 ### 人手評価
@@ -50,7 +56,11 @@
   * https://www.jstage.jst.go.jp/article/kansei/18/3/18_146/_pdf/-char/ja
   * 山下 利之 (2020)企業ロゴにおけるグローバル企業の ローカル展開  
 
-
+### 深層学習評価
+* Deep CTR Prediction[Chen 16] で提案されている特徴量の他、Text特徴を学習する機構を新たに加えた提案手法を用い、CTR予測タスクに対して性能比較を行う。具体的にはBasic featureだけを使いCTR予測を行ったモデルをbaselineとし、Basic・Image・Text feature　の組み合わせによって、Mean Squared Error(MSE),Kullback Leibler Divergence(KLD), KLDの改善率の3軸の評価指標を示す。
+  * [Chen 16] Chen, J., Sun, B., Li, H., Lu, H., and Hua, X.-S.: Deep CTR Prediction in Display Advertising, in Proceed-
+  * https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-14/public/pdf?type=in
+  *    * 岩崎 祐貴(2018) 深層学習によるFacebook広告のCTR予測
 
 ## 自動生成
 * 変文オートエンコーダ：入力に近しい表現を生成できる
