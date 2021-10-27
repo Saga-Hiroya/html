@@ -36,8 +36,8 @@
 * BLEU [Papineni 02]:（言語が自然かどうか）自動生成の場合
 
 * 人手評価では生成文の流暢性，妥当性をそれぞれ最低を示す1から最高を示す4の4段階で評価する
- * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf
- * 川本 峻頌, 張 培楠 (2020)  スタイル制御を考慮した多様な広告文生成 
+  * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf
+  * 川本 峻頌, 張 培楠 (2020)  スタイル制御を考慮した多様な広告文生成 
 
 ## 自動生成
 * 変文オートエンコーダ：入力に近しい表現を生成できる
