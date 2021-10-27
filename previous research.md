@@ -60,7 +60,7 @@
 * Deep CTR Prediction[Chen 16] で提案されている特徴量の他、Text特徴を学習する機構を新たに加えた提案手法を用い、CTR予測タスクに対して性能比較を行う。具体的にはBasic featureだけを使いCTR予測を行ったモデルをbaselineとし、Basic・Image・Text feature　の組み合わせによって、Mean Squared Error(MSE),Kullback Leibler Divergence(KLD), KLDの改善率の3軸の評価指標を示す。
   * [Chen 16] Chen, J., Sun, B., Li, H., Lu, H., and Hua, X.-S.: Deep CTR Prediction in Display Advertising, in Proceed-
   * https://confit.atlas.jp/guide/event-img/jsai2018/4Pin1-14/public/pdf?type=in
-  *    * 岩崎 祐貴(2018) 深層学習によるFacebook広告のCTR予測
+  * 岩崎 祐貴(2018) 深層学習によるFacebook広告のCTR予測
 
 ## 自動生成
 * 変文オートエンコーダ：入力に近しい表現を生成できる
