@@ -26,6 +26,9 @@
   * https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/P6-14.pdf  
   *  川本 峻頌, 張 培楠 (2020) スタイル制御を考慮した多様な広告文生成  
 
+### 広告主の利益を増収する要因
+[Uploading YANS2018.pdf…]()
+
 ## 評価方法について
 ### 人手評価
 * Relative Ranking (RR)：評価者がその一部もしくは全てを適切な順番に並び替える評価手法　（スコア化にTrueSkillTMを用いる）
