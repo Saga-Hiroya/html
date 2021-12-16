@@ -149,7 +149,7 @@
 * イメージや数字を用いた具体化
 
 ## 広告媒体の比較
-### キャククル（https://www.shopowner-support.net/glossary/framework/advertising-media/）
+### キャククル https://www.shopowner-support.net/glossary/framework/advertising-media/ 
 #### インターネット広告
 * マス広告が持っている「情報拡散力」と、SP広告が持っている「販売促進力」を併せ持っている広告媒体
 * 運用高ストが低いものも多く費用対効果に優れている
