@@ -150,5 +150,7 @@
 
 ## 広告媒体の比較
 ### キャククル（https://www.shopowner-support.net/glossary/framework/advertising-media/）
-#
+#### インターネット広告
+*
+
 
