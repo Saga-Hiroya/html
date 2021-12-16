@@ -147,3 +147,8 @@
 ### キャッチコピー 
 * 12文字が基本（スッローガンは9文字）他に13.5（Yahoo）や15等の10文字前後（八五調や七五調）長くても25文字以内
 * イメージや数字を用いた具体化
+
+## 広告媒体の比較
+### キャククル（https://www.shopowner-support.net/glossary/framework/advertising-media/）
+#
+
