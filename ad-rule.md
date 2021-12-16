@@ -178,6 +178,6 @@
 ### 広告の目的
 * 広告には、商品やサービスの購入。または、認知度アップといった目的
 
-### 日本画像学会（https://www.jstage.jst.go.jp/article/isj/43/4/43_4_289/_article/-char/ja/）
+### 日本画像学会　https://www.jstage.jst.go.jp/article/isj/43/4/43_4_289/_article/-char/ja/
 #### 紙メディア
 * 紙メディアは視認性に優れており電子メディアよりも読みやすい
